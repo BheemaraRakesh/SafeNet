@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Fontspring-DEMO-greycliffcf-bold';
+    src: url(../../src/fonts/Fontspring-DEMO-greycliffcf-bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: local('Poppins-SemiBold'), url(./fonts/Poppins-SemiBold.ttf) format('truetype');;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/public/img/bg-img-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
