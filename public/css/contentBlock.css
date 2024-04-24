@@ -1,0 +1,168 @@
+.container {
+    display: flex;
+}
+
+/* .imageBlock {
+    position: absolute;
+    left: -2vw;
+    top: 26vh;
+    background-image: url(/public/img/images-collage.png);
+    background-size: 100%;
+    width: 120%;
+    height: 120%;
+    filter: blur(7px);
+    filter: opacity(90%);
+} */
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    width: 18vw;
+}
+
+.logo {
+    width: 55px;
+    margin-right: 3px;
+    position: relative;
+    left: 20px;
+}
+
+.title {
+    font-family: Fontspring-DEMO-greycliffcf-bold;
+    font-size: 44px;
+    margin: 10px 0;
+    position: relative;
+    left: 20px;
+}
+
+.fileInputCard {
+    font-family: Poppins-SemiBold;
+    padding: 22px;
+    z-index: 1;
+    position: absolute;
+    width: 35%;
+    left: 31.1%;
+    top: 27.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(233, 236, 239, 0.73);
+    box-shadow: 0 0 25px -3px rgba(98, 134, 149, 0.546);
+    backdrop-filter: blur(15px);
+    font-size: 1.8vw;
+}
+
+.outerBox {
+    display: flex;
+    justify-content: space-between;
+    width: 16.5em;
+    margin-bottom: 0.5em;
+}
+
+.chooseFilePrompt {
+    font-size: 1.2em;
+    margin: 0 0 1.8em 0;
+}
+
+#actualFileInput {
+    display: none;
+}
+
+.dupFileInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21vw;
+    background-color: rgba(192, 191, 191, 0.37);
+    box-shadow: 0 0 15px -2px rgba(73, 74, 74, 0.286);
+    border-radius: 5px;
+}
+
+#dupFileInputBtn {
+    cursor: pointer;
+    width: 7em;
+    height: 2.3em;
+    background-color: rgb(116, 230, 127);
+    font-family: Poppins-SemiBold;
+    font-size: 0.65em;
+    border: 0;
+    border-radius: 5px;
+}
+
+#dupFileInputBtn:active {
+    background-color: rgba(149, 146, 146, 0.532);
+}
+
+.fileText {
+    font-size: 0.65em;
+    font-weight: -100px;
+    max-width: 10em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.btnBox {
+    display: flex;
+}
+
+.fileTextBox {
+    display: flex;
+    justify-content: center;
+    width: 150%;
+}
+
+.scanBtn {
+    cursor: pointer;
+    width: 6em;
+    height: 2.3em;
+    background-color: rgb(116, 230, 127);
+    box-shadow: 0 0 15px -2px rgba(73, 74, 74, 0.286);
+    font-family: Poppins-SemiBold;
+    font-size: 0.65em;
+    border: 0;
+    border-radius: 5px;
+}
+
+.scanBtn:active {
+    background-color: rgba(149, 146, 146, 0.532);
+}
+
+#resultBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.4em 0 0.3em 0;
+    width: 14em;
+}
+
+#loadingGif {
+    margin-top: 0.6em;
+    position: relative;
+    left: 42%;
+    width: 13%;
+}
+
+.resImg {
+    width: 13%;
+    height: 13%;
+}
+
+.resUnsafe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.8em;
+    color: red;
+}
+
+.resSafe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.8em;
+    color: rgb(72, 190, 84);
+}
